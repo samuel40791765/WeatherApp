@@ -1,0 +1,595 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F911B646238CB6E1009E2962 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F911B645238CB6E1009E2962 /* AppDelegate.swift */; };
+		F911B648238CB6E1009E2962 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F911B647238CB6E1009E2962 /* SceneDelegate.swift */; };
+		F911B64A238CB6E1009E2962 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F911B649238CB6E1009E2962 /* ViewController.swift */; };
+		F911B64D238CB6E1009E2962 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F911B64B238CB6E1009E2962 /* Main.storyboard */; };
+		F911B64F238CB6E3009E2962 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F911B64E238CB6E3009E2962 /* Assets.xcassets */; };
+		F911B652238CB6E3009E2962 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F911B650238CB6E3009E2962 /* LaunchScreen.storyboard */; };
+		F911B65D238CB6E3009E2962 /* DarkSkyAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F911B65C238CB6E3009E2962 /* DarkSkyAppTests.swift */; };
+		F911B668238CB6E3009E2962 /* DarkSkyAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F911B667238CB6E3009E2962 /* DarkSkyAppUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F911B659238CB6E3009E2962 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F911B63A238CB6E0009E2962 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F911B641238CB6E1009E2962;
+			remoteInfo = DarkSkyApp;
+		};
+		F911B664238CB6E3009E2962 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F911B63A238CB6E0009E2962 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F911B641238CB6E1009E2962;
+			remoteInfo = DarkSkyApp;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		F911B642238CB6E1009E2962 /* DarkSkyApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DarkSkyApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F911B645238CB6E1009E2962 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		F911B647238CB6E1009E2962 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		F911B649238CB6E1009E2962 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		F911B64C238CB6E1009E2962 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F911B64E238CB6E3009E2962 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F911B651238CB6E3009E2962 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		F911B653238CB6E3009E2962 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F911B658238CB6E3009E2962 /* DarkSkyAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DarkSkyAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F911B65C238CB6E3009E2962 /* DarkSkyAppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DarkSkyAppTests.swift; sourceTree = "<group>"; };
+		F911B65E238CB6E3009E2962 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F911B663238CB6E3009E2962 /* DarkSkyAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DarkSkyAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F911B667238CB6E3009E2962 /* DarkSkyAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DarkSkyAppUITests.swift; sourceTree = "<group>"; };
+		F911B669238CB6E3009E2962 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F911B63F238CB6E1009E2962 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F911B655238CB6E3009E2962 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F911B660238CB6E3009E2962 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F911B639238CB6E0009E2962 = {
+			isa = PBXGroup;
+			children = (
+				F911B644238CB6E1009E2962 /* DarkSkyApp */,
+				F911B65B238CB6E3009E2962 /* DarkSkyAppTests */,
+				F911B666238CB6E3009E2962 /* DarkSkyAppUITests */,
+				F911B643238CB6E1009E2962 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F911B643238CB6E1009E2962 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F911B642238CB6E1009E2962 /* DarkSkyApp.app */,
+				F911B658238CB6E3009E2962 /* DarkSkyAppTests.xctest */,
+				F911B663238CB6E3009E2962 /* DarkSkyAppUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F911B644238CB6E1009E2962 /* DarkSkyApp */ = {
+			isa = PBXGroup;
+			children = (
+				F911B645238CB6E1009E2962 /* AppDelegate.swift */,
+				F911B647238CB6E1009E2962 /* SceneDelegate.swift */,
+				F911B649238CB6E1009E2962 /* ViewController.swift */,
+				F911B64B238CB6E1009E2962 /* Main.storyboard */,
+				F911B64E238CB6E3009E2962 /* Assets.xcassets */,
+				F911B650238CB6E3009E2962 /* LaunchScreen.storyboard */,
+				F911B653238CB6E3009E2962 /* Info.plist */,
+			);
+			path = DarkSkyApp;
+			sourceTree = "<group>";
+		};
+		F911B65B238CB6E3009E2962 /* DarkSkyAppTests */ = {
+			isa = PBXGroup;
+			children = (
+				F911B65C238CB6E3009E2962 /* DarkSkyAppTests.swift */,
+				F911B65E238CB6E3009E2962 /* Info.plist */,
+			);
+			path = DarkSkyAppTests;
+			sourceTree = "<group>";
+		};
+		F911B666238CB6E3009E2962 /* DarkSkyAppUITests */ = {
+			isa = PBXGroup;
+			children = (
+				F911B667238CB6E3009E2962 /* DarkSkyAppUITests.swift */,
+				F911B669238CB6E3009E2962 /* Info.plist */,
+			);
+			path = DarkSkyAppUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F911B641238CB6E1009E2962 /* DarkSkyApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F911B66C238CB6E3009E2962 /* Build configuration list for PBXNativeTarget "DarkSkyApp" */;
+			buildPhases = (
+				F911B63E238CB6E1009E2962 /* Sources */,
+				F911B63F238CB6E1009E2962 /* Frameworks */,
+				F911B640238CB6E1009E2962 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DarkSkyApp;
+			productName = DarkSkyApp;
+			productReference = F911B642238CB6E1009E2962 /* DarkSkyApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F911B657238CB6E3009E2962 /* DarkSkyAppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F911B66F238CB6E3009E2962 /* Build configuration list for PBXNativeTarget "DarkSkyAppTests" */;
+			buildPhases = (
+				F911B654238CB6E3009E2962 /* Sources */,
+				F911B655238CB6E3009E2962 /* Frameworks */,
+				F911B656238CB6E3009E2962 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F911B65A238CB6E3009E2962 /* PBXTargetDependency */,
+			);
+			name = DarkSkyAppTests;
+			productName = DarkSkyAppTests;
+			productReference = F911B658238CB6E3009E2962 /* DarkSkyAppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		F911B662238CB6E3009E2962 /* DarkSkyAppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F911B672238CB6E3009E2962 /* Build configuration list for PBXNativeTarget "DarkSkyAppUITests" */;
+			buildPhases = (
+				F911B65F238CB6E3009E2962 /* Sources */,
+				F911B660238CB6E3009E2962 /* Frameworks */,
+				F911B661238CB6E3009E2962 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F911B665238CB6E3009E2962 /* PBXTargetDependency */,
+			);
+			name = DarkSkyAppUITests;
+			productName = DarkSkyAppUITests;
+			productReference = F911B663238CB6E3009E2962 /* DarkSkyAppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F911B63A238CB6E0009E2962 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1120;
+				LastUpgradeCheck = 1120;
+				ORGANIZATIONNAME = "Samuel Chiang";
+				TargetAttributes = {
+					F911B641238CB6E1009E2962 = {
+						CreatedOnToolsVersion = 11.2.1;
+					};
+					F911B657238CB6E3009E2962 = {
+						CreatedOnToolsVersion = 11.2.1;
+						TestTargetID = F911B641238CB6E1009E2962;
+					};
+					F911B662238CB6E3009E2962 = {
+						CreatedOnToolsVersion = 11.2.1;
+						TestTargetID = F911B641238CB6E1009E2962;
+					};
+				};
+			};
+			buildConfigurationList = F911B63D238CB6E0009E2962 /* Build configuration list for PBXProject "DarkSkyApp" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F911B639238CB6E0009E2962;
+			productRefGroup = F911B643238CB6E1009E2962 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F911B641238CB6E1009E2962 /* DarkSkyApp */,
+				F911B657238CB6E3009E2962 /* DarkSkyAppTests */,
+				F911B662238CB6E3009E2962 /* DarkSkyAppUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F911B640238CB6E1009E2962 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F911B652238CB6E3009E2962 /* LaunchScreen.storyboard in Resources */,
+				F911B64F238CB6E3009E2962 /* Assets.xcassets in Resources */,
+				F911B64D238CB6E1009E2962 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F911B656238CB6E3009E2962 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F911B661238CB6E3009E2962 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F911B63E238CB6E1009E2962 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F911B64A238CB6E1009E2962 /* ViewController.swift in Sources */,
+				F911B646238CB6E1009E2962 /* AppDelegate.swift in Sources */,
+				F911B648238CB6E1009E2962 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F911B654238CB6E3009E2962 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F911B65D238CB6E3009E2962 /* DarkSkyAppTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F911B65F238CB6E3009E2962 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F911B668238CB6E3009E2962 /* DarkSkyAppUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F911B65A238CB6E3009E2962 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F911B641238CB6E1009E2962 /* DarkSkyApp */;
+			targetProxy = F911B659238CB6E3009E2962 /* PBXContainerItemProxy */;
+		};
+		F911B665238CB6E3009E2962 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F911B641238CB6E1009E2962 /* DarkSkyApp */;
+			targetProxy = F911B664238CB6E3009E2962 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		F911B64B238CB6E1009E2962 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F911B64C238CB6E1009E2962 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		F911B650238CB6E3009E2962 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F911B651238CB6E3009E2962 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F911B66A238CB6E3009E2962 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		F911B66B238CB6E3009E2962 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F911B66D238CB6E3009E2962 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 5WPP69K49F;
+				INFOPLIST_FILE = DarkSkyApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = samuel.DarkSkyApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F911B66E238CB6E3009E2962 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 5WPP69K49F;
+				INFOPLIST_FILE = DarkSkyApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = samuel.DarkSkyApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		F911B670238CB6E3009E2962 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 5WPP69K49F;
+				INFOPLIST_FILE = DarkSkyAppTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = samuel.DarkSkyAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DarkSkyApp.app/DarkSkyApp";
+			};
+			name = Debug;
+		};
+		F911B671238CB6E3009E2962 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 5WPP69K49F;
+				INFOPLIST_FILE = DarkSkyAppTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = samuel.DarkSkyAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DarkSkyApp.app/DarkSkyApp";
+			};
+			name = Release;
+		};
+		F911B673238CB6E3009E2962 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 5WPP69K49F;
+				INFOPLIST_FILE = DarkSkyAppUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = samuel.DarkSkyAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = DarkSkyApp;
+			};
+			name = Debug;
+		};
+		F911B674238CB6E3009E2962 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 5WPP69K49F;
+				INFOPLIST_FILE = DarkSkyAppUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = samuel.DarkSkyAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = DarkSkyApp;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F911B63D238CB6E0009E2962 /* Build configuration list for PBXProject "DarkSkyApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F911B66A238CB6E3009E2962 /* Debug */,
+				F911B66B238CB6E3009E2962 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F911B66C238CB6E3009E2962 /* Build configuration list for PBXNativeTarget "DarkSkyApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F911B66D238CB6E3009E2962 /* Debug */,
+				F911B66E238CB6E3009E2962 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F911B66F238CB6E3009E2962 /* Build configuration list for PBXNativeTarget "DarkSkyAppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F911B670238CB6E3009E2962 /* Debug */,
+				F911B671238CB6E3009E2962 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F911B672238CB6E3009E2962 /* Build configuration list for PBXNativeTarget "DarkSkyAppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F911B673238CB6E3009E2962 /* Debug */,
+				F911B674238CB6E3009E2962 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F911B63A238CB6E0009E2962 /* Project object */;
+}
