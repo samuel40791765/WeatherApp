@@ -1,0 +1,34 @@
+PODS:
+  - Alamofire (4.9.1)
+  - Charts (3.4.0):
+    - Charts/Core (= 3.4.0)
+  - Charts/Core (3.4.0)
+  - SwiftSpinner (2.1.0)
+  - SwiftyJSON (5.0.0)
+  - Toast-Swift (5.0.0)
+
+DEPENDENCIES:
+  - Alamofire
+  - Charts
+  - SwiftSpinner
+  - SwiftyJSON
+  - Toast-Swift (~> 5.0.0)
+
+SPEC REPOS:
+  trunk:
+    - Alamofire
+    - Charts
+    - SwiftSpinner
+    - SwiftyJSON
+    - Toast-Swift
+
+SPEC CHECKSUMS:
+  Alamofire: 85e8a02c69d6020a0d734f6054870d7ecb75cf18
+  Charts: 74c9f256eaf0460c0c416522d1cf8c634ea6b286
+  SwiftSpinner: 0f15c006307f8d8bbac075638927ec1361b565d7
+  SwiftyJSON: 36413e04c44ee145039d332b4f4e2d3e8d6c4db7
+  Toast-Swift: 36f4720243c8582c2be243a60a51e193c761f541
+
+PODFILE CHECKSUM: 1776d8768ec3e6106aea61f5eb26ffef22762282
+
+COCOAPODS: 1.8.4

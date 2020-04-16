@@ -2,8 +2,26 @@
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
-	<key>CFBundleDevelopmentRegion</key>
-	<string>$(DEVELOPMENT_LANGUAGE)</string>
+	<key>NSLocationWhenInUseUsageDescription</key>
+	<string>For getting your current location&apos;s weather</string>
+	<key>NSLocationUsageDescription</key>
+	<string>For getting your current location&apos;s weather</string>
+	<key>NSLocationAlwaysAndWhenInUseUsageDescription</key>
+	<string>For getting your current location&apos;s weather</string>
+	<key>NSLocationAlwaysUsageDescription</key>
+	<string>For getting your current location&apos;s weather</string>
+	<key>CFBundleURLTypes</key>
+	<array>
+		<dict>
+			<key>CFBundleURLName</key>
+			<string></string>
+		</dict>
+	</array>
+	<key>NSAppTransportSecurity</key>
+	<dict>
+		<key>NSAllowsArbitraryLoads</key>
+		<true/>
+	</dict>
 	<key>CFBundleExecutable</key>
 	<string>$(EXECUTABLE_NAME)</string>
 	<key>CFBundleIdentifier</key>
